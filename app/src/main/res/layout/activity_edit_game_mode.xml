@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="wrap_content"
+              android:layout_height="match_parent"
+              android:layout_gravity="center"
+              android:layout_marginLeft="10dp"
+              android:layout_marginRight="10dp"
+              android:layout_marginTop="10dp"
+              android:orientation="vertical"
+              tools:context="martinek.stepan.scorecounter.EditGameModeActivity">
+
+    <EditText
+        android:id="@+id/etGameModeName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:inputType="textNoSuggestions"
+        android:maxLength="20"
+        android:singleLine="true"
+        />
+
+    <androidx.appcompat.widget.SwitchCompat
+        android:id="@+id/swStrictRounds"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/strict_rounds"/>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="1dp"
+        android:layout_marginTop="2dp"
+        android:background="#000000"/>
+
+
+    <androidx.appcompat.widget.SwitchCompat
+        android:id="@+id/swOnlyPositive"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/only_positive_numbers"/>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="1dp"
+        android:layout_marginTop="2dp"
+        android:background="#000000"/>
+
+
+    <androidx.appcompat.widget.SwitchCompat
+        android:id="@+id/swConstantScore"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/constant_score"/>
+
+    <EditText
+        android:id="@+id/etConstantScore"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:ems="10"
+        android:gravity="center"
+        android:inputType="numberDecimal"
+        android:text="1"
+        android:visibility="gone"/>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="1dp"
+        android:layout_marginTop="2dp"
+        android:background="#000000"/>
+
+
+    <androidx.appcompat.widget.SwitchCompat
+        android:id="@+id/swRounds"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/limited_rounds"/>
+
+    <EditText
+        android:id="@+id/etRoundsNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:ems="10"
+        android:gravity="center"
+        android:inputType="numberDecimal"
+        />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="1dp"
+        android:layout_marginTop="2dp"
+        android:background="#000000"/>
+
+
+    <androidx.appcompat.widget.SwitchCompat
+        android:id="@+id/swWinningScore"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/winning_score"/>
+
+    <EditText
+        android:id="@+id/etWinningScore"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:ems="10"
+        android:gravity="center"
+        android:inputType="numberDecimal"
+        />
+
+    <androidx.appcompat.widget.SwitchCompat
+        android:id="@+id/swFinnishRound"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/finnish_round"/>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="1dp"
+        android:layout_marginTop="2dp"
+        android:background="#000000"/>
+
+
+    <androidx.appcompat.widget.SwitchCompat
+        android:id="@+id/swLowestScore"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/lowest_score_win"/>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="1dp"
+        android:layout_marginTop="2dp"
+        android:background="#000000"/>
+
+
+    <Button
+        android:id="@+id/buttSave"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/save_gamemode"
+        />
+
+    <Button
+        android:id="@+id/buttSaveAs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/save_as_gamemode"/>
+
+</LinearLayout>

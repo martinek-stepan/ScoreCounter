@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/playerName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="Player Name"
+        android:textAppearance="?android:attr/textAppearanceLarge"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:layout_gravity="center_horizontal"
+        android:background="#000000"
+        android:text=""/>
+
+    <ListView
+        android:id="@+id/scoreView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:drawSelectorOnTop="false"
+        android:orientation="vertical"/>
+
+    <LinearLayout
+        android:id="@+id/llAddScore"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:orientation="horizontal"
+        >
+
+        <ImageButton
+            android:id="@+id/buttAddScoreMinus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1.0"
+            android:src="@drawable/ic_minus"/>
+
+        <ImageButton
+            android:id="@+id/buttAddScorePlus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1.0"
+            android:src="@drawable/ic_plus"/>
+
+    </LinearLayout>
+</LinearLayout>

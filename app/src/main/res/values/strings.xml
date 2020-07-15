@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Score Counter</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_player">Add player</string>
+    <string name="action_game">Game options</string>
+    <string name="settings_longclick">Use longclick for edit</string>
+    <string name="settings_score_button">Dynamic score buttons</string>
+    <string name="settings_use_subtotals">Use subtotals</string>
+    <string name="title_activity_edit_game_mode">EditGameModeActivity</string>
+    <string name="strict_rounds">Strict rounds</string>
+    <string name="only_positive_numbers">Only positive numbers</string>
+    <string name="constant_score">Use constant score</string>
+    <string name="limited_rounds">Limited rounds</string>
+    <string name="winning_score">Winning score</string>
+    <string name="lowest_score_win">Lowest score win</string>
+    <string name="save_gamemode">Save</string>
+    <string name="save_as_gamemode">Save as</string>
+    <string name="finnish_round">Finnish round</string>
+    <string name="title_activity_game_mode_list">GameModeListActivity</string>
+    <string name="manage_gamemodes">Manage Game Modes</string>
+    <string name="new_game">New Game</string>
+</resources>
